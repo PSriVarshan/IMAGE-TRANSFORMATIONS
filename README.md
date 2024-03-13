@@ -30,10 +30,11 @@ Anaconda - Python 3.7
 
 ## Program:
 
-Developed By:
-Register Number:
+### Developed By : Sri Varshan P
 
-### Installing OpenCV , importing necessary libraries and displaying images  
+### Register Number : 212222240104
+
+#### Installing OpenCV , importing necessary libraries and displaying images  
 
 ```py
 # Install OpenCV library
@@ -52,7 +53,7 @@ def show_image(image):
 
 ```
 
-#### (i)Image Translation
+#### (i) Image Translation
 ```py
 # Load an image from URL or file path
 image_url = '1.jpg'  
@@ -100,7 +101,7 @@ show_image(scaled_image)
 
 
 
-#### (iii)Image shearing
+#### (iii) Image shearing
 ```py
 # Load an image from URL or file path
 image_url = '3.jpg'  # Replace with your image URL or file path
@@ -126,7 +127,7 @@ show_image(sheared_image)
 
 
 
-#### (iv)Image Reflection
+#### (iv) Image Reflection
 
 ```py
 # Load an image from URL or file path
@@ -144,7 +145,7 @@ reflected_image_both = cv2.flip(image, -1)
 
 ```
 
-##### → Reflecting Horizontally
+##### (a) → Reflecting Horizontally
 
 ```py
 # Display original and reflected images
@@ -155,7 +156,7 @@ show_image(reflected_image_horizontal)
 print("↑ Reflected Horizontally")
 ```
 
-##### → Reflected Vertically
+##### (b) → Reflected Vertically
 
 ```py
 show_image(image)
@@ -165,7 +166,7 @@ print("↑ Reflected Vertically")
 
 ```
 
-##### → Reflecting Horizontally & Vertically
+##### (c) → Reflecting Horizontally & Vertically
 ```py
 
 show_image(image)
@@ -175,7 +176,7 @@ print("↑ Reflected Both")
 
 ```
 
-### (v)Image Rotation
+### (v) Image Rotation
 
 ```py
 # Load an image from URL or file path
@@ -205,7 +206,7 @@ show_image(rotated_image)
 
 
 
-### (vi)Image Cropping
+### (vi) Image Cropping
 
 ```py
 # Load an image from URL or file path
